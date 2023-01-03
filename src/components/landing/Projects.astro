@@ -1,1 +1,24 @@
-<h1>Projects</h1>
+---
+import proyectosData from "../../data/projects.json";
+---
+
+<h1 class="text-5xl text-center font-bold my-8">Proyectos</h1>
+
+<div>
+  {
+    proyectosData.map((data) => (
+      <div class="grid md:grid-cols-2 text-center md:text-left">
+        <div class="gap-y-4">
+          <h2 class="text-2xl font-bold my-4">{data.titulo}</h2>
+          <p class="my-2">{data.descripcion}</p>
+          <button class="bg-indigo-500 px-3 py-2 hover:bg-indigo-400">
+            Mas informacion.
+          </button>
+        </div>
+        <div class="my-10">
+          <img class="w-72 m-auto" src={data.image} alt="" />
+        </div>
+      </div>
+    ))
+  }
+</div>

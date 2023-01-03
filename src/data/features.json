@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "Encriptado",
+    "descripcion": "Tu información será cifrada y estará segura en la basa de datos."
+  },
+  {
+    "titulo": "Codigo libre",
+    "descripcion": "El proyecto contara con la disposición del código fuente al público."
+  },
+  {
+    "titulo": "Gratis",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, itaque."
+  },
+  {
+    "titulo": "Rapido",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, itaque."
+  },
+  {
+    "titulo": "Seguro",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, itaque."
+  },
+  {
+    "titulo": "Multiplataforma",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, itaque."
+  }
+]
