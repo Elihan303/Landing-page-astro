@@ -7,5 +7,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   site: "https://Elihan303.github.io",
-  base: "/Landing-page-astro",
+  base: "/Elihan-portafolio",
 });
